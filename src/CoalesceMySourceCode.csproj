@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>cmsc</AssemblyName>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Ferdinand Sukhoi</Authors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>iFerS.Coalesce-My-Source-Code</PackageId>
+
+    <PackageProjectUrl>https://github.com/FerdinandSukhoi/Coalesce-My-Source-Code</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/FerdinandSukhoi/Coalesce-My-Source-Code.git</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <Version>1.0.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Nullable>enable</Nullable>
+    <LangVersion>8.0</LangVersion>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackAsTool>true</PackAsTool>
+
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+    <Description>To coalesce all source files in a directory into a single file, to paste in your report.</Description>
+    <Copyright>Copyright (c) 2020 Ferdinand Sukhoi</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageIcon>iFerS.png</PackageIcon>
+    <NeutralLanguage>zh-CN</NeutralLanguage>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\iFerS.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="PlasticMetal.MobileSuit" Version="2.2.0.2" />
+  </ItemGroup>
+
+</Project>

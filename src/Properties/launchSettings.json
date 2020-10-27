@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CoalesceMySourceCode": {
+      "commandName": "Project",
+      "commandLineArgs": "-h"
+    }
+  }
+}
