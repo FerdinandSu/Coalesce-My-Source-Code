@@ -87,7 +87,7 @@ namespace CoalesceMySourceCode
                 ("Usage:",IO.ColorSetting.ListTitleColor)
                 
             ));
-            IO.WriteLine("\tcmsc -i <InputDir> -o <OutputFile> -f <extension>", IO.ColorSetting.CustomInformationColor);
+            IO.WriteLine("\tcmsc -i <InputDir> -t <CommentToken> -o <OutputFile> -f <extension>", IO.ColorSetting.CustomInformationColor);
             IO.WriteLine(Suit.CreateContentArray(
                 ("Options:", IO.ColorSetting.ListTitleColor)
             ));
