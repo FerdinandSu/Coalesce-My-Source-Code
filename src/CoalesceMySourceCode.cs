@@ -22,6 +22,7 @@ namespace CoalesceMySourceCode
         {
             [Option("o")] public string OutputFileName { get; set; } = "";
             [Option("i")] public string InputDirectory { get; set; } = "";
+            [WithDefault][Option("t")] public string CommentToken { get; set; } = "//";
             [Option("f")]
             [WithDefault]
             [AsCollection]
