@@ -76,7 +76,6 @@ namespace CoalesceMySourceCode
         {
             Suit.GetBuilder()
                 .UsePrompt<PowerLineThemedPromptServer>()
-                .UseLog(PlasticMetal.MobileSuit.Core.ILogger.OfFile("D:\\clc.log"))
                 .Build<CoalesceMySourceCode>()
                 .Run(args);
         }
