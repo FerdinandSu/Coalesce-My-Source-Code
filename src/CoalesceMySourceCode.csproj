@@ -12,7 +12,7 @@
     <PackageProjectUrl>https://github.com/FerdinandSukhoi/Coalesce-My-Source-Code</PackageProjectUrl>
     <RepositoryUrl>https://github.com/FerdinandSukhoi/Coalesce-My-Source-Code.git</RepositoryUrl>
     <RepositoryType>Github</RepositoryType>
-    <Version>1.0.1</Version>
+    <Version>1.0.1.1</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Nullable>enable</Nullable>
     <LangVersion>8.0</LangVersion>

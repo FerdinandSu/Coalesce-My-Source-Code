@@ -32,7 +32,7 @@ namespace CoalesceMySourceCode
             [WithDefault]
             public List<string> Excludes { get; set; } = new List<string>();
         }
-        [SuitAlias("cc")]
+        [SuitAlias("cs")]
         public int Coalesce(CoalesceParameter p)
         {
             var sb = new StringBuilder();
@@ -109,7 +109,7 @@ namespace CoalesceMySourceCode
 
         public override int SuitStartUp(CoalesceParameter arg)
         {
-            IO.WriteLine("Called.");
+            Coalesce(arg);
             return 0;
         }
         [SuitIgnore]
